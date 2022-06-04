@@ -1,5 +1,4 @@
 # preztozsh
-## 手順
 - この後の prezto の導入で zsh 関連のファイルが作成されるため、既存の`.zprofile`や`.zshrc`などの zsh 関連ファイルは退避させるかバックアップを取って削除する
 
 ## prezto の導入
@@ -13,7 +12,6 @@ done
 
 $ source ~/.zshrc
 ```
-- 新しいタブを開いて prompt が変わっていることを確認
 
 ## zsh-syntax-highlighting の設定
 - `$ vim ~/.zpreztorc`
@@ -35,7 +33,6 @@ zstyle ':prezto:load' pmodule \
   'prompt'
 ```
 - `zstyle ':prezto:module:syntax-highlighting' color 'yes'`を追加
-    - どこでもいいが、`# Set syntax highlighters.`配下に置いておくと分かりやすい
 
 ```bash
 # Set syntax highlighters.
@@ -53,14 +50,9 @@ zstyle ':prezto:load' pmodule \
 
 ## テーマの変更
 - `$ vim ~/.zpreztorc`
-- `zstyle ':prezto:module:prompt' theme 'ここを好きなテーマに変更'`
-    - 上記のリンクから好きなテーマを選ぶ
-    - `steeef`
-
-<br>
+- `zstyle ':prezto:module:prompt' theme 'steeef'`
 
 # peco
-## 手順
 - `$ brew install peco`
 - `$ vim ~/.zshrc`
 
@@ -75,15 +67,9 @@ bindkey '^R' peco-history-selection
 ```
 - `$ source ~/.zshrc`
 
-<br>
-
 # tig
-## 手順
 - `$ brew install tig`
-- git commit 時のデフォルトエディタを vim に変更する方法
-    - `git config --global core.editor vim`
-
-<br>
+- `git config --global core.editor vim`
 
 # ~/.zshrc
 ```bash
