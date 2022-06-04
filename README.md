@@ -146,3 +146,47 @@ function peco-history-selection() {
 zle -N peco-history-selection
 bindkey '^R' peco-history-selection
 ```
+
+# Clipy
+- メイン
+  - 変更なし
+- 履歴
+  - ⌥ v
+- スニペット
+  - 削除
+
+# Spectacle
+- Fullscreen
+  - ⌥ F
+- Next Display
+  - ⌥ ⇧ ⌘ ↑
+- Previous Display
+  - ⌥ ⇧ ⌘ ↓
+- Left Half
+  - ⌥ ←
+- Right Half
+  - ⌥ →
+
+# iTerm
+- Profiles
+  - Text > Font
+    - Courier New
+    - Bold Italic
+    - 16 100 100
+  - Terminal
+    - Scrollback Buffer
+      - Unlimited scrollback
+
+# IDE
+- Editor > Font
+  - Courier New
+- Keymap
+  - Go to File
+    - ⇧ ⌘ N
+
+# Sequel
+- Font
+  - Courier New, 14.0 ~ 16.0 pt
+- Auto uppercase keywords
+
+![img.png](img.png)
