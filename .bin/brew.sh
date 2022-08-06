@@ -6,3 +6,6 @@ if [ "$(uname)" != "Darwin" ] ; then
 fi
 
 brew bundle --global
+
+# For tig
+git config --global core.editor vim
