@@ -1,0 +1,2 @@
+- Font - Courier New, 14.0 ~ 16.0 pt
+- Auto uppercase keywords
